@@ -1,0 +1,20 @@
+[0.099s] Invoking command in '/home/isami/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/isami/bumperbot_ws/build/bumperbot_cpp_examples -- -j3 -l3
+[0.168s] Invoked command in '/home/isami/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/isami/bumperbot_ws/build/bumperbot_cpp_examples -- -j3 -l3
+[0.211s] Invoking command in '/home/isami/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/isami/bumperbot_ws/build/bumperbot_cpp_examples
+[0.229s] -- Install configuration: ""
+[0.229s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples
+[0.229s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples
+[0.229s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh
+[0.229s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.dsv
+[0.229s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.sh
+[0.229s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.dsv
+[0.229s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.bash
+[0.229s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.sh
+[0.229s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.zsh
+[0.229s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.dsv
+[0.229s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv
+[0.229s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/packages/bumperbot_cpp_examples
+[0.230s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig.cmake
+[0.230s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake
+[0.230s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml
+[0.273s] Invoked command in '/home/isami/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/isami/bumperbot_ws/build/bumperbot_cpp_examples

@@ -1,0 +1,36 @@
+[0.226s] Invoking command in '/home/isami/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/isami/bumperbot_ws/build/bumperbot_description -- -j3 -l3
+[11.118s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[11.457s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.600s] -- Added test 'lint_cmake' to check CMake code style
+[11.606s] -- Added test 'xmllint' to check XML markup files
+[11.615s] -- Configuring done
+[11.627s] -- Generating done
+[11.629s] -- Build files have been written to: /home/isami/bumperbot_ws/build/bumperbot_description
+[11.666s] Invoked command in '/home/isami/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/isami/bumperbot_ws/build/bumperbot_description -- -j3 -l3
+[11.713s] Invoking command in '/home/isami/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/isami/bumperbot_ws/build/bumperbot_description
+[11.725s] -- Install configuration: ""
+[11.725s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes
+[11.725s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_front_link.STL
+[11.726s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/imu_link.STL
+[11.727s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_left_link.STL
+[11.729s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_rear_link.STL
+[11.730s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_right_link.STL
+[11.733s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/base_link.STL
+[11.761s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf
+[11.762s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot.urdf.xacro
+[11.762s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/package_run_dependencies/bumperbot_description
+[11.762s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/parent_prefix_path/bumperbot_description
+[11.762s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.sh
+[11.762s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.dsv
+[11.763s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/path.sh
+[11.763s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/path.dsv
+[11.766s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.bash
+[11.766s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.sh
+[11.766s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.zsh
+[11.767s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.dsv
+[11.767s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.dsv
+[11.767s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/packages/bumperbot_description
+[11.768s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig.cmake
+[11.771s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig-version.cmake
+[11.772s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.xml
+[11.773s] Invoked command in '/home/isami/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/isami/bumperbot_ws/build/bumperbot_description

@@ -1,0 +1,2 @@
+Invoking command in '/home/isami/bumperbot_ws/build/bumperbot_cpp_examples': /usr/bin/cmake --build /home/isami/bumperbot_ws/build/bumperbot_cpp_examples -- -j3 -l3
+Invoked command in '/home/isami/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': /usr/bin/cmake --build /home/isami/bumperbot_ws/build/bumperbot_cpp_examples -- -j3 -l3

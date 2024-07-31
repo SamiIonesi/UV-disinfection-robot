@@ -1,0 +1,258 @@
+[1.001s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.001s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=3, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x716e4508d630>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x716e4508eaa0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x716e4508eaa0>>)
+[1.043s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.044s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.044s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.044s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.044s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.044s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.044s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/isami/bumperbot_ws'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.044s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.045s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.055s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.056s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.057s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extensions ['ignore', 'ignore_ament_install']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extension 'ignore'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extension 'ignore_ament_install'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extensions ['colcon_pkg']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extension 'colcon_pkg'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extensions ['colcon_meta']
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extension 'colcon_meta'
+[1.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extensions ['ros']
+[1.059s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extension 'ros'
+[1.061s] DEBUG:colcon.colcon_core.package_identification:Failed to parse potential ROS package manifest in'src/bumperbot_controller': Error(s) in package 'src/bumperbot_controller/package.xml':
+Package 'bumperbot_controller' must declare at least one maintainer
+The package node must contain at least one "license" tag
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extensions ['cmake', 'python']
+[1.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extension 'cmake'
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extension 'python'
+[1.064s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bumperbot_controller' with type 'cmake' and name 'bumperbot_controller'
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_cpp_examples) by extensions ['ignore', 'ignore_ament_install']
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_cpp_examples) by extension 'ignore'
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_cpp_examples) by extension 'ignore_ament_install'
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_cpp_examples) by extensions ['colcon_pkg']
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_cpp_examples) by extension 'colcon_pkg'
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_cpp_examples) by extensions ['colcon_meta']
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_cpp_examples) by extension 'colcon_meta'
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_cpp_examples) by extensions ['ros']
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_cpp_examples) by extension 'ros'
+[1.065s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bumperbot_cpp_examples' with type 'ros.ament_cmake' and name 'bumperbot_cpp_examples'
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extensions ['ignore', 'ignore_ament_install']
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extension 'ignore'
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extension 'ignore_ament_install'
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extensions ['colcon_pkg']
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extension 'colcon_pkg'
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extensions ['colcon_meta']
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extension 'colcon_meta'
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extensions ['ros']
+[1.066s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extension 'ros'
+[1.067s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bumperbot_description' with type 'ros.ament_cmake' and name 'bumperbot_description'
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_py_examples) by extensions ['ignore', 'ignore_ament_install']
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_py_examples) by extension 'ignore'
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_py_examples) by extension 'ignore_ament_install'
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_py_examples) by extensions ['colcon_pkg']
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_py_examples) by extension 'colcon_pkg'
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_py_examples) by extensions ['colcon_meta']
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_py_examples) by extension 'colcon_meta'
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_py_examples) by extensions ['ros']
+[1.067s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_py_examples) by extension 'ros'
+[1.068s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bumperbot_py_examples' with type 'ros.ament_python' and name 'bumperbot_py_examples'
+[1.068s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.068s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.068s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.068s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.068s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.208s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 329 installed packages in /opt/ros/humble
+[1.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.320s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'cmake_args' from command line to 'None'
+[1.320s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'cmake_target' from command line to 'None'
+[1.320s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.321s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[1.321s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[1.321s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[1.321s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[1.321s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[1.321s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.321s] DEBUG:colcon.colcon_core.verb:Building package 'bumperbot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/isami/bumperbot_ws/build/bumperbot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/isami/bumperbot_ws/install/bumperbot_controller', 'merge_install': False, 'path': '/home/isami/bumperbot_ws/src/bumperbot_controller', 'symlink_install': False, 'test_result_base': None}
+[1.341s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples' build argument 'cmake_args' from command line to 'None'
+[1.342s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples' build argument 'cmake_target' from command line to 'None'
+[1.342s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.342s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[1.342s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples' build argument 'cmake_clean_first' from command line to 'False'
+[1.342s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples' build argument 'cmake_force_configure' from command line to 'False'
+[1.342s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples' build argument 'ament_cmake_args' from command line to 'None'
+[1.342s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[1.342s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.342s] DEBUG:colcon.colcon_core.verb:Building package 'bumperbot_cpp_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/isami/bumperbot_ws/build/bumperbot_cpp_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/isami/bumperbot_ws/install/bumperbot_cpp_examples', 'merge_install': False, 'path': '/home/isami/bumperbot_ws/src/bumperbot_cpp_examples', 'symlink_install': False, 'test_result_base': None}
+[1.356s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'cmake_args' from command line to 'None'
+[1.356s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'cmake_target' from command line to 'None'
+[1.356s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.356s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.356s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.356s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.356s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.356s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.356s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.356s] DEBUG:colcon.colcon_core.verb:Building package 'bumperbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/isami/bumperbot_ws/build/bumperbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/isami/bumperbot_ws/install/bumperbot_description', 'merge_install': False, 'path': '/home/isami/bumperbot_ws/src/bumperbot_description', 'symlink_install': False, 'test_result_base': None}
+[1.369s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'cmake_args' from command line to 'None'
+[1.369s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'cmake_target' from command line to 'None'
+[1.369s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.369s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[1.369s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'cmake_clean_first' from command line to 'False'
+[1.369s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'cmake_force_configure' from command line to 'False'
+[1.369s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'ament_cmake_args' from command line to 'None'
+[1.369s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[1.369s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.369s] DEBUG:colcon.colcon_core.verb:Building package 'bumperbot_py_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/isami/bumperbot_ws/build/bumperbot_py_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/isami/bumperbot_ws/install/bumperbot_py_examples', 'merge_install': False, 'path': '/home/isami/bumperbot_ws/src/bumperbot_py_examples', 'symlink_install': False, 'test_result_base': None}
+[1.382s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.396s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.396s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/isami/bumperbot_ws/src/bumperbot_controller'
+[1.418s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.419s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.419s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.456s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/isami/bumperbot_ws/src/bumperbot_cpp_examples' with build type 'ament_cmake'
+[1.457s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/isami/bumperbot_ws/src/bumperbot_cpp_examples'
+[1.477s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.477s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.514s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/isami/bumperbot_ws/src/bumperbot_description' with build type 'ament_cmake'
+[1.514s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/isami/bumperbot_ws/src/bumperbot_description'
+[1.532s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.532s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.573s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/isami/bumperbot_ws/build/bumperbot_controller': /usr/bin/cmake --build /home/isami/bumperbot_ws/build/bumperbot_controller -- -j3 -l3
+[1.578s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/isami/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/isami/bumperbot_ws/build/bumperbot_cpp_examples -- -j3 -l3
+[1.619s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/isami/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/isami/bumperbot_ws/build/bumperbot_description -- -j3 -l3
+[1.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/isami/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/isami/bumperbot_ws/build/bumperbot_cpp_examples -- -j3 -l3
+[1.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/isami/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/isami/bumperbot_ws/build/bumperbot_description -- -j3 -l3
+[1.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/isami/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/isami/bumperbot_ws/build/bumperbot_cpp_examples
+[1.773s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_cpp_examples)
+[1.778s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/isami/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/isami/bumperbot_ws/build/bumperbot_cpp_examples
+[1.795s] Level 1:colcon.colcon_core.environment:checking '/home/isami/bumperbot_ws/install/bumperbot_cpp_examples' for CMake module files
+[1.796s] Level 1:colcon.colcon_core.environment:checking '/home/isami/bumperbot_ws/install/bumperbot_cpp_examples' for CMake config files
+[1.796s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_cpp_examples', 'cmake_prefix_path')
+[1.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/isami/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/hook/cmake_prefix_path.ps1'
+[1.814s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/isami/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/hook/cmake_prefix_path.dsv'
+[1.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/isami/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/hook/cmake_prefix_path.sh'
+[1.816s] Level 1:colcon.colcon_core.environment:checking '/home/isami/bumperbot_ws/install/bumperbot_cpp_examples/bin'
+[1.816s] Level 1:colcon.colcon_core.environment:checking '/home/isami/bumperbot_ws/install/bumperbot_cpp_examples/lib/pkgconfig/bumperbot_cpp_examples.pc'
+[1.817s] Level 1:colcon.colcon_core.environment:checking '/home/isami/bumperbot_ws/install/bumperbot_cpp_examples/lib/python3.10/site-packages'
+[1.817s] Level 1:colcon.colcon_core.environment:checking '/home/isami/bumperbot_ws/install/bumperbot_cpp_examples/bin'
+[1.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/isami/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.ps1'
+[1.834s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/isami/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv'
+[1.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/isami/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.sh'
+[1.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/isami/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.bash'
+[1.837s] INFO:colcon.colcon_core.shell:Creating package script '/home/isami/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.zsh'
+[1.838s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/isami/bumperbot_ws/install/bumperbot_cpp_examples/share/colcon-core/packages/bumperbot_cpp_examples)
+[1.844s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/isami/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/isami/bumperbot_ws/build/bumperbot_description
+[1.891s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_description)
+[1.892s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/isami/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/isami/bumperbot_ws/build/bumperbot_description
+[1.923s] Level 1:colcon.colcon_core.environment:checking '/home/isami/bumperbot_ws/install/bumperbot_description' for CMake module files
+[1.924s] Level 1:colcon.colcon_core.environment:checking '/home/isami/bumperbot_ws/install/bumperbot_description' for CMake config files
+[1.925s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_description', 'cmake_prefix_path')
+[1.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/isami/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/hook/cmake_prefix_path.ps1'
+[1.961s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/isami/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/hook/cmake_prefix_path.dsv'
+[1.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/isami/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/hook/cmake_prefix_path.sh'
+[1.963s] Level 1:colcon.colcon_core.environment:checking '/home/isami/bumperbot_ws/install/bumperbot_description/bin'
+[1.963s] Level 1:colcon.colcon_core.environment:checking '/home/isami/bumperbot_ws/install/bumperbot_description/lib/pkgconfig/bumperbot_description.pc'
+[1.964s] Level 1:colcon.colcon_core.environment:checking '/home/isami/bumperbot_ws/install/bumperbot_description/lib/python3.10/site-packages'
+[1.964s] Level 1:colcon.colcon_core.environment:checking '/home/isami/bumperbot_ws/install/bumperbot_description/bin'
+[2.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/isami/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.ps1'
+[2.020s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/isami/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.dsv'
+[2.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/isami/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.sh'
+[2.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/isami/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.bash'
+[2.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/isami/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.zsh'
+[2.022s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/isami/bumperbot_ws/install/bumperbot_description/share/colcon-core/packages/bumperbot_description)
+[2.090s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_cpp_examples)
+[2.111s] Level 1:colcon.colcon_core.environment:checking '/home/isami/bumperbot_ws/install/bumperbot_cpp_examples' for CMake module files
+[2.115s] Level 1:colcon.colcon_core.environment:checking '/home/isami/bumperbot_ws/install/bumperbot_cpp_examples' for CMake config files
+[2.116s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_cpp_examples', 'cmake_prefix_path')
+[2.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/isami/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/hook/cmake_prefix_path.ps1'
+[2.152s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/isami/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/hook/cmake_prefix_path.dsv'
+[2.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/isami/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/hook/cmake_prefix_path.sh'
+[2.153s] Level 1:colcon.colcon_core.environment:checking '/home/isami/bumperbot_ws/install/bumperbot_cpp_examples/bin'
+[2.154s] Level 1:colcon.colcon_core.environment:checking '/home/isami/bumperbot_ws/install/bumperbot_cpp_examples/lib/pkgconfig/bumperbot_cpp_examples.pc'
+[2.154s] Level 1:colcon.colcon_core.environment:checking '/home/isami/bumperbot_ws/install/bumperbot_cpp_examples/lib/python3.10/site-packages'
+[2.154s] Level 1:colcon.colcon_core.environment:checking '/home/isami/bumperbot_ws/install/bumperbot_cpp_examples/bin'
+[2.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/isami/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.ps1'
+[2.176s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/isami/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv'
+[2.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/isami/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.sh'
+[2.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/isami/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.bash'
+[2.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/isami/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.zsh'
+[2.178s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/isami/bumperbot_ws/install/bumperbot_cpp_examples/share/colcon-core/packages/bumperbot_cpp_examples)
+[2.179s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/isami/bumperbot_ws/src/bumperbot_py_examples' with build type 'ament_python'
+[2.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_py_examples', 'ament_prefix_path')
+[2.193s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/isami/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples/hook/ament_prefix_path.ps1'
+[2.193s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/isami/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples/hook/ament_prefix_path.dsv'
+[2.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/isami/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples/hook/ament_prefix_path.sh'
+[2.208s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.208s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.258s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_description)
+[2.272s] Level 1:colcon.colcon_core.environment:checking '/home/isami/bumperbot_ws/install/bumperbot_description' for CMake module files
+[2.272s] Level 1:colcon.colcon_core.environment:checking '/home/isami/bumperbot_ws/install/bumperbot_description' for CMake config files
+[2.273s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_description', 'cmake_prefix_path')
+[2.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/isami/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/hook/cmake_prefix_path.ps1'
+[2.287s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/isami/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/hook/cmake_prefix_path.dsv'
+[2.288s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/isami/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/hook/cmake_prefix_path.sh'
+[2.289s] Level 1:colcon.colcon_core.environment:checking '/home/isami/bumperbot_ws/install/bumperbot_description/bin'
+[2.290s] Level 1:colcon.colcon_core.environment:checking '/home/isami/bumperbot_ws/install/bumperbot_description/lib/pkgconfig/bumperbot_description.pc'
+[2.290s] Level 1:colcon.colcon_core.environment:checking '/home/isami/bumperbot_ws/install/bumperbot_description/lib/python3.10/site-packages'
+[2.290s] Level 1:colcon.colcon_core.environment:checking '/home/isami/bumperbot_ws/install/bumperbot_description/bin'
+[2.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/isami/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.ps1'
+[2.305s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/isami/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.dsv'
+[2.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/isami/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.sh'
+[2.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/isami/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.bash'
+[2.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/isami/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.zsh'
+[2.308s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/isami/bumperbot_ws/install/bumperbot_description/share/colcon-core/packages/bumperbot_description)
+[2.310s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/isami/bumperbot_ws/build/bumperbot_controller' returned '2': /usr/bin/cmake --build /home/isami/bumperbot_ws/build/bumperbot_controller -- -j3 -l3
+[2.320s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.321s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.321s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[2.321s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.374s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.375s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.375s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.402s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.419s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/isami/bumperbot_ws/install/local_setup.ps1'
+[2.421s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/isami/bumperbot_ws/install/_local_setup_util_ps1.py'
+[2.423s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/isami/bumperbot_ws/install/setup.ps1'
+[2.442s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/isami/bumperbot_ws/install/local_setup.sh'
+[2.444s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/isami/bumperbot_ws/install/_local_setup_util_sh.py'
+[2.446s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/isami/bumperbot_ws/install/setup.sh'
+[2.478s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/isami/bumperbot_ws/install/local_setup.bash'
+[2.479s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/isami/bumperbot_ws/install/setup.bash'
+[2.511s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/isami/bumperbot_ws/install/local_setup.zsh'
+[2.514s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/isami/bumperbot_ws/install/setup.zsh'

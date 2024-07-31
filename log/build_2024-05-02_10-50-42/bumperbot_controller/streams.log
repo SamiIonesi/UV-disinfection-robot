@@ -1,0 +1,34 @@
+[0.242s] Invoking command in '/home/isami/bumperbot_ws/build/bumperbot_controller': /usr/bin/cmake --build /home/isami/bumperbot_ws/build/bumperbot_controller -- -j3 -l3
+[0.315s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.509s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.566s] Error parsing '/home/isami/bumperbot_ws/src/bumperbot_controller/package.xml':
+[0.614s] Traceback (most recent call last):
+[0.614s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.614s]     main()
+[0.614s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.614s]     raise e
+[0.614s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.615s]     package = parse_package_string(
+[0.615s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[0.618s]     pkg.validate(warnings=warnings)
+[0.618s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[0.618s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[0.618s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/isami/bumperbot_ws/src/bumperbot_controller/package.xml':
+[0.618s] Package 'bumperbot_controller' must declare at least one maintainer
+[0.618s] The package node must contain at least one "license" tag
+[0.645s] -- Configuring incomplete, errors occurred!
+[0.646s] See also "/home/isami/bumperbot_ws/build/bumperbot_controller/CMakeFiles/CMakeOutput.log".
+[0.646s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.646s]   execute_process(/usr/bin/python3
+[0.646s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.646s]   /home/isami/bumperbot_ws/src/bumperbot_controller/package.xml
+[0.646s]   /home/isami/bumperbot_ws/build/bumperbot_controller/ament_cmake_core/package.cmake)
+[0.646s]   returned error code 1
+[0.646s] Call Stack (most recent call first):
+[0.646s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.646s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.646s]   CMakeLists.txt:19 (ament_lint_auto_find_test_dependencies)
+[0.646s] 
+[0.648s] [0m
+[0.656s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.782s] Invoked command in '/home/isami/bumperbot_ws/build/bumperbot_controller' returned '2': /usr/bin/cmake --build /home/isami/bumperbot_ws/build/bumperbot_controller -- -j3 -l3

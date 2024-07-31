@@ -1,0 +1,4 @@
+Invoking command in '/home/isami/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/isami/bumperbot_ws/build/bumperbot_controller -- -j3 -l3
+Invoked command in '/home/isami/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/isami/bumperbot_ws/build/bumperbot_controller -- -j3 -l3
+Invoking command in '/home/isami/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/isami/bumperbot_ws/build/bumperbot_controller
+Invoked command in '/home/isami/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/isami/bumperbot_ws/build/bumperbot_controller

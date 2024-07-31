@@ -1,0 +1,2 @@
+Invoking command in '/home/isami/bumperbot_ws/build/bumperbot_controller': /usr/bin/cmake --build /home/isami/bumperbot_ws/build/bumperbot_controller -- -j3 -l3
+Invoked command in '/home/isami/bumperbot_ws/build/bumperbot_controller' returned '2': /usr/bin/cmake --build /home/isami/bumperbot_ws/build/bumperbot_controller -- -j3 -l3

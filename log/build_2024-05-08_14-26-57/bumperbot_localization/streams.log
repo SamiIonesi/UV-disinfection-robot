@@ -1,0 +1,42 @@
+[0.009s] Invoking command in '/home/isami/bumperbot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/isami/bumperbot_ws/src/bumperbot_localization -DCMAKE_INSTALL_PREFIX=/home/isami/bumperbot_ws/install/bumperbot_localization
+[0.252s] -- The C compiler identification is GNU 11.4.0
+[0.427s] -- The CXX compiler identification is GNU 11.4.0
+[0.443s] -- Detecting C compiler ABI info
+[0.541s] -- Detecting C compiler ABI info - done
+[0.547s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.547s] -- Detecting C compile features
+[0.548s] -- Detecting C compile features - done
+[0.554s] -- Detecting CXX compiler ABI info
+[0.672s] -- Detecting CXX compiler ABI info - done
+[0.679s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.679s] -- Detecting CXX compile features
+[0.680s] -- Detecting CXX compile features - done
+[0.703s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.904s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.027s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.137s] -- Added test 'lint_cmake' to check CMake code style
+[1.138s] -- Added test 'xmllint' to check XML markup files
+[1.140s] -- Configuring done
+[1.142s] -- Generating done
+[1.143s] -- Build files have been written to: /home/isami/bumperbot_ws/build/bumperbot_localization
+[1.148s] Invoked command in '/home/isami/bumperbot_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/isami/bumperbot_ws/src/bumperbot_localization -DCMAKE_INSTALL_PREFIX=/home/isami/bumperbot_ws/install/bumperbot_localization
+[1.149s] Invoking command in '/home/isami/bumperbot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/isami/bumperbot_ws/build/bumperbot_localization -- -j3 -l3
+[1.195s] Invoked command in '/home/isami/bumperbot_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/isami/bumperbot_ws/build/bumperbot_localization -- -j3 -l3
+[1.223s] Invoking command in '/home/isami/bumperbot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/isami/bumperbot_ws/build/bumperbot_localization
+[1.232s] -- Install configuration: ""
+[1.232s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/package_run_dependencies/bumperbot_localization
+[1.232s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/parent_prefix_path/bumperbot_localization
+[1.233s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.sh
+[1.233s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.dsv
+[1.233s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/path.sh
+[1.233s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/path.dsv
+[1.233s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.bash
+[1.233s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.sh
+[1.233s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.zsh
+[1.234s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.dsv
+[1.234s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.dsv
+[1.234s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_localization/share/ament_index/resource_index/packages/bumperbot_localization
+[1.234s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig.cmake
+[1.234s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig-version.cmake
+[1.235s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.xml
+[1.237s] Invoked command in '/home/isami/bumperbot_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/isami/bumperbot_ws/build/bumperbot_localization

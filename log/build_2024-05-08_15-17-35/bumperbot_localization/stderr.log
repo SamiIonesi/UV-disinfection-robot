@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:70 (file):
+  file INSTALL cannot find
+  "/home/isami/bumperbot_ws/src/bumperbot_localization/$(PROJECT_NAME)/kalman_filter.py":
+  No such file or directory.
+
+[0m

@@ -1,0 +1,6 @@
+Invoking command in '/home/isami/bumperbot_ws/build/bumperbot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/isami/bumperbot_ws/src/bumperbot_msgs -DCMAKE_INSTALL_PREFIX=/home/isami/bumperbot_ws/install/bumperbot_msgs
+Invoked command in '/home/isami/bumperbot_ws/build/bumperbot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/isami/bumperbot_ws/src/bumperbot_msgs -DCMAKE_INSTALL_PREFIX=/home/isami/bumperbot_ws/install/bumperbot_msgs
+Invoking command in '/home/isami/bumperbot_ws/build/bumperbot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/isami/bumperbot_ws/build/bumperbot_msgs -- -j3 -l3
+Invoked command in '/home/isami/bumperbot_ws/build/bumperbot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/isami/bumperbot_ws/build/bumperbot_msgs -- -j3 -l3
+Invoking command in '/home/isami/bumperbot_ws/build/bumperbot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/isami/bumperbot_ws/build/bumperbot_msgs
+Invoked command in '/home/isami/bumperbot_ws/build/bumperbot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/isami/bumperbot_ws/build/bumperbot_msgs

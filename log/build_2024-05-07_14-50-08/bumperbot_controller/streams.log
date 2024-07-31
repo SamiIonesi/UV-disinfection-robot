@@ -1,0 +1,60 @@
+[0.024s] Invoking command in '/home/isami/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/isami/bumperbot_ws/build/bumperbot_controller -- -j3 -l3
+[0.055s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.250s] -- Found rclpy: 3.3.12 (/opt/ros/humble/share/rclpy/cmake)
+[0.251s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[0.274s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.277s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.282s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.292s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.309s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.405s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.778s] -- Configuring done
+[0.790s] -- Generating done
+[0.792s] -- Build files have been written to: /home/isami/bumperbot_ws/build/bumperbot_controller
+[0.855s] Built target ament_cmake_python_copy_bumperbot_controller
+[1.099s] running egg_info
+[1.100s] writing bumperbot_controller.egg-info/PKG-INFO
+[1.101s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[1.101s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[1.104s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[1.106s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[1.135s] Built target ament_cmake_python_build_bumperbot_controller_egg
+[1.189s] Invoked command in '/home/isami/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/isami/bumperbot_ws/build/bumperbot_controller -- -j3 -l3
+[1.214s] Invoking command in '/home/isami/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/isami/bumperbot_ws/build/bumperbot_controller
+[1.221s] -- Install configuration: ""
+[1.221s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.sh
+[1.221s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.dsv
+[1.223s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info
+[1.223s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[1.223s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.223s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[1.223s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.223s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller
+[1.223s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py
+[1.223s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/__init__.py
+[1.257s] Listing '/home/isami/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller'...
+[1.257s] Compiling '/home/isami/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py'...
+[1.263s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config
+[1.264s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_config.yaml
+[1.264s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_teleop.yaml
+[1.264s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
+[1.264s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch
+[1.264s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
+[1.264s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/joystick_teleop_launch.py
+[1.264s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller.py
+[1.264s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+[1.264s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+[1.264s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+[1.265s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+[1.265s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+[1.265s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+[1.265s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+[1.265s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+[1.265s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+[1.265s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+[1.265s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+[1.265s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+[1.265s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+[1.265s] -- Up-to-date: /home/isami/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+[1.265s] -- Installing: /home/isami/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.xml
+[1.272s] Invoked command in '/home/isami/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/isami/bumperbot_ws/build/bumperbot_controller

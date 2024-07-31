@@ -1,0 +1,7 @@
+{
+  "package_name": "bumperbot_msgs",
+  "non_idl_tuples": [
+    "/home/isami/bumperbot_ws/src/bumperbot_msgs:srv/AddTwoInts.srv",
+    "/home/isami/bumperbot_ws/src/bumperbot_msgs:srv/GetTransform.srv"
+  ]
+}

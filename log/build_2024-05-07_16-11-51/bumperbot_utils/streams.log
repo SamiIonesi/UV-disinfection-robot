@@ -1,0 +1,20 @@
+[1.826s] Invoking command in '/home/isami/bumperbot_ws/src/bumperbot_utils': PYTHONPATH=/home/isami/bumperbot_ws/build/bumperbot_utils/prefix_override:/home/isami/bumperbot_ws/install/bumperbot_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bumperbot_utils build --build-base /home/isami/bumperbot_ws/build/bumperbot_utils/build install --record /home/isami/bumperbot_ws/build/bumperbot_utils/install.log --single-version-externally-managed install_data
+[2.173s] running egg_info
+[2.174s] writing ../../build/bumperbot_utils/bumperbot_utils.egg-info/PKG-INFO
+[2.175s] writing dependency_links to ../../build/bumperbot_utils/bumperbot_utils.egg-info/dependency_links.txt
+[2.175s] writing entry points to ../../build/bumperbot_utils/bumperbot_utils.egg-info/entry_points.txt
+[2.175s] writing requirements to ../../build/bumperbot_utils/bumperbot_utils.egg-info/requires.txt
+[2.176s] writing top-level names to ../../build/bumperbot_utils/bumperbot_utils.egg-info/top_level.txt
+[2.178s] reading manifest file '../../build/bumperbot_utils/bumperbot_utils.egg-info/SOURCES.txt'
+[2.190s] writing manifest file '../../build/bumperbot_utils/bumperbot_utils.egg-info/SOURCES.txt'
+[2.190s] running build
+[2.190s] running build_py
+[2.191s] running install
+[2.191s] running install_lib
+[2.194s] running install_data
+[2.199s] running install_egg_info
+[2.202s] removing '/home/isami/bumperbot_ws/install/bumperbot_utils/lib/python3.10/site-packages/bumperbot_utils-0.0.0-py3.10.egg-info' (and everything under it)
+[2.204s] Copying ../../build/bumperbot_utils/bumperbot_utils.egg-info to /home/isami/bumperbot_ws/install/bumperbot_utils/lib/python3.10/site-packages/bumperbot_utils-0.0.0-py3.10.egg-info
+[2.206s] running install_scripts
+[2.238s] writing list of installed files to '/home/isami/bumperbot_ws/build/bumperbot_utils/install.log'
+[2.289s] Invoked command in '/home/isami/bumperbot_ws/src/bumperbot_utils' returned '0': PYTHONPATH=/home/isami/bumperbot_ws/build/bumperbot_utils/prefix_override:/home/isami/bumperbot_ws/install/bumperbot_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bumperbot_utils build --build-base /home/isami/bumperbot_ws/build/bumperbot_utils/build install --record /home/isami/bumperbot_ws/build/bumperbot_utils/install.log --single-version-externally-managed install_data
